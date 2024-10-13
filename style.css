@@ -16,7 +16,6 @@ body {
   top: 50%;
   left: 50%;
   translate: -50% -50%;
-  
 }
 
 h1 {
@@ -129,24 +128,24 @@ form {
   user-select: none;
 }
 @media only screen and (max-width: 500px) {
-  .container{
+  .container {
     width: 90vw;
-
   }
-  form{
+  form {
     display: block;
   }
-  #main_text{
+  #main_text {
     width: 100%;
   }
-  #button{
+  #button {
     width: 105%;
     display: inline;
     text-align: center;
-    margin: 20px auto;}
-    .res{
-      width: auto;
-      overflow-x: auto;
-      text-overflow: clip;
-    }
+    margin: 20px auto;
+  }
+  .res {
+    width: auto;
+    overflow-x: auto;
+    text-overflow: clip;
+  }
 }
